@@ -18,6 +18,7 @@ public class Seguir_jogardor : MonoBehaviour
         if(posicaoJogador.gameObject != null)
         {
             transform.position = Vector2.MoveTowards(transform.position, posicaoJogador.position, velocidadeInimigo * Time.deltaTime);
+            //alou
         }
     }
 }
